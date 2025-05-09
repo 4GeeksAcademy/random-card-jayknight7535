@@ -1,5 +1,28 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(1, 160, 1);
+}
+#card{
+    align-self: center;
+    width: 350px;
+    height: 520px;
+    margin-left: 600px;
+    margin-top: 75px;
+}
+
+#topSuit{
+    font-size: 70px;
+    
+}
+#revSuit{
+    font-size: 70px;
+    transform: rotate(180deg);
+    align-self: flex-end;
+}
+#Rank{
+    font-size: 150px;
+}
+heart{
+    color: red 
 }
